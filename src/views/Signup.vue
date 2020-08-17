@@ -16,29 +16,34 @@
   </div>
 </template>
 <script>
-import { Auth } from 'aws-amplify';
+import { Auth } from 'aws-amplify'
+import router from 'vue-router'
+
 export default {
-  data: function(){
+  data: function () {
     return {
-      username,
-      email,
-      password,
-      error
+      username: '',
+      email: '',
+      password: '',
+      error: ''
     }
   },
-  methods:{
-    Signup: () => {
-      const{ username, email, password } = this.data;
-      try{
+  methods: {
+    Signup: async () => {
+      const { username, email, password } = this.data
+      console.log(username)
+      try {
         const signupRes = await Auth.signUp({
-          username,
-          password,
-          attribute:{
+          username: username,
+          password: password,
+          attributes: {
             email: email
           }
-        });
-      }catch(err){
-        this.data.error = err;
+        })
+        console.log(signupRes)
+        router.go('/')
+      } catch (err) {
+        this.data.error = err
       }
     }
   }

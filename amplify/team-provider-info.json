@@ -1,0 +1,38 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-worldtree-dev-213731-authRole",
+            "UnauthRoleArn": "arn:aws:iam::923341793859:role/amplify-worldtree-dev-213731-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::923341793859:role/amplify-worldtree-dev-213731-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-worldtree-dev-213731-deployment",
+            "UnauthRoleName": "amplify-worldtree-dev-213731-unauthRole",
+            "StackName": "amplify-worldtree-dev-213731",
+            "StackId": "arn:aws:cloudformation:us-east-1:923341793859:stack/amplify-worldtree-dev-213731/fded8c30-e03a-11ea-aa18-12342204bca9",
+            "AmplifyAppId": "d2kua1sad1ptfx"
+        },
+        "categories": {
+            "auth": {
+                "worldtreeb352c84d": {}
+            }
+        }
+    },
+    "worldtree": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-worldtree-worldtree-224048-authRole",
+            "UnauthRoleArn": "arn:aws:iam::923341793859:role/amplify-worldtree-worldtree-224048-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::923341793859:role/amplify-worldtree-worldtree-224048-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-worldtree-worldtree-224048-deployment",
+            "UnauthRoleName": "amplify-worldtree-worldtree-224048-unauthRole",
+            "StackName": "amplify-worldtree-worldtree-224048",
+            "StackId": "arn:aws:cloudformation:us-east-1:923341793859:stack/amplify-worldtree-worldtree-224048/d59b0b00-e043-11ea-842d-0a6865628217",
+            "AmplifyAppId": "d2x0qwc8i3u0bw"
+        },
+        "categories": {
+            "auth": {
+                "worldtreeb352c84d": {}
+            }
+        }
+    }
+}

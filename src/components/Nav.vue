@@ -14,8 +14,8 @@
 
 <script>
 export default {
-  name: "Nav",
-};
+  name: 'Nav'
+}
 </script>
 
 <style lang="scss" scoped>
